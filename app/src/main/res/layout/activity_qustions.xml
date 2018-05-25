@@ -1,16 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".QustionsActivity">
 
     <TextView
         android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
         android:id="@+id/textName"
         android:layout_height="wrap_content"
         android:text="Hey Name!"
         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/textName"
+        android:text="What color do you like most of these options?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/redButton"
+        android:onClick="redButtonOnClick"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Menu"
+        android:text="Red"
+        android:layout_below="@+id/textQ1"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/blueButton"
+        android:onClick="blueButtonOnClick"
+        android:text="Blue"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/redButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/whiteButton"
+        android:onClick="whiteButtonOnClick"
+        android:layout_width="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Menu"
+        android:text="White"
+        android:layout_below="@+id/blueButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/greenButton"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Menu"
+        android:text="Green"
+        android:onClick="greenButtonOnClick"
+        android:layout_below="@+id/whiteButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

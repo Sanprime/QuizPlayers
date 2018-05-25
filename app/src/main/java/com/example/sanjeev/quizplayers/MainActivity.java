@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 private static String nameUser;
+private static int option;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,5 +38,12 @@ private static String nameUser;
         return nameUser;
     }
 
+    public static int getOption(){
+        return option;
+    }
+
+    public static void setOption( int optionNumber){
+        option = optionNumber;
+    }
 
 }
