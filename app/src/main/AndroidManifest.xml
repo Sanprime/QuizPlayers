@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".QustionsActivity"></activity>
+        <activity android:name=".QuestionsActivity" />
+        <activity android:name=".redActivity" />
+        <activity android:name=".blueActivity" />
+        <activity android:name=".whiteActivity" />
+        <activity android:name=".greenActivity"></activity>
     </application>
 
 </manifest>

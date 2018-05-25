@@ -25,14 +25,14 @@
 
     <EditText
         android:id="@+id/editText1"
+        android:imeOptions="actionDone"
         android:layout_width="wrap_content"
         android:layout_centerInParent="true"
         android:layout_height="wrap_content"
         android:layout_above="@+id/startButton"
         android:clickable="true"
         android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName" />
+        android:hint="Name" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_above="@+id/editText1"
