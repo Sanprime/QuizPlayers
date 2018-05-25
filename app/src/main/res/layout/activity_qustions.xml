@@ -22,7 +22,7 @@
         android:paddingBottom="20dp"
         android:paddingTop="20dp"
         android:layout_below="@+id/textName"
-        android:text="What color do you like most of these options?"
+        android:text="What ... ?"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
     <Button
         android:layout_width="wrap_content"
