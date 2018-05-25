@@ -19,6 +19,7 @@
         android:onClick="startButtonOnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
         android:text="Start quiz" />
@@ -36,8 +37,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_above="@+id/editText1"
-        android:gravity="top"
-        android:text="Find out what Premier League team do you support?"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="Let's start the quiz!"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Menu"
         android:layout_height="wrap_content" />
 
